@@ -55,7 +55,7 @@ outhelp = """
 def main():
 	parser = argparse.ArgumentParser(description=desc)
 
-	parser.add_argument("st", help="The string to search for.")
+	parser.add_argument("st", help="The lyric snippet.")
 
 	match_type_group = parser.add_mutually_exclusive_group()
 	match_type_group.add_argument("-e", "--exact-match", help=exactmatchhelp, action='store_true', dest="exacttitle")
