@@ -4,7 +4,7 @@
                st
 
 positional arguments:
-  st                    The string to search for.
+  st                    The lyric snippet.
 
 optional arguments:
   -h, --help            show this help message and exit
